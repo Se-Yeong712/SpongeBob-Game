@@ -29,7 +29,6 @@ public class FinishView extends JFrame {
 	Stage1 stage1;
 	Stage2 stage2;
 	Stage3 stage3;
-	Stage4 stage4;
 	
 	public FinishView(int stagenum){
 		pan.setLayout(null);
@@ -56,15 +55,9 @@ public class FinishView extends JFrame {
 				}
 				if(stagenum == 3) {
 					dispose();
-					dispose();
-					Thread t = new Thread(new Stage4());
-					t.start();
-				}
-				if(stagenum == 4) {
-					dispose();
 					ScoreSignUp sign = new ScoreSignUp();
 				}
-				
+
 				dispose();
 			}
 		};timer.schedule(task, 3000);
