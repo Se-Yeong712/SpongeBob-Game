@@ -33,9 +33,9 @@ public class ScoreSignUp extends JFrame{
 	private JTextField textfield = new JTextField(15);
 	public static int allScore = (GamePanel3.score + 100); 
 	public JLabel lblscore;
-	public static int rank25;
+	public static int rank2;
 	public static String name;
-	
+		
 
 
 	public ScoreSignUp() {
@@ -148,8 +148,8 @@ while(rs.next()) {
 						temp=scores.get(i);
 						System.out.println(temp);
 						if(allScore==temp) {
-							rank25=total-i;
-							System.out.println(you+"등수 : "+rank25);
+							rank2=total-i;
+							System.out.println(you+"등수 : "+rank2);
 						}
 
 					}
@@ -163,7 +163,7 @@ while(rs.next()) {
 		
 		connection.close();
 		
-		if(rank25==1) {
+		if(rank2==1) {
 			WinView win = new WinView();		
 		}
 		else {

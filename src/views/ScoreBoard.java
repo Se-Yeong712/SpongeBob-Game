@@ -19,7 +19,7 @@ public class ScoreBoard extends JFrame{
 	private JButton replay = new JButton(new ImageIcon("imgs/text/text_replay.png"));
 	private JButton stop = new JButton(new ImageIcon("imgs/text/text_stop.png"));
 	private JLabel lbg = new JLabel(new ImageIcon("imgs/Background/scoreboard.png"));
-	public static int rank2 = ScoreSignUp.rank25;
+	public static int rank2 = ScoreSignUp.rank2;
 	private JLabel printRank;
 	public static String name2 = ScoreSignUp.name;
 	private JLabel printname;

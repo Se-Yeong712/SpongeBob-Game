@@ -16,7 +16,7 @@ import views.Stage2;
 import views.Stage3;
 
 //�ڵ鷯
-public class BurgerHandler1 extends KeyAdapter{
+public class BurgerHandler2 extends KeyAdapter{
 
 	private JLabel lbl;
 	private Stage1 view;
@@ -31,7 +31,7 @@ public class BurgerHandler1 extends KeyAdapter{
 	
 	//public BGMusic1 bgm = new BGMusic1();
 	
-	public BurgerHandler1(Stage1 view) {
+	public BurgerHandler2(Stage1 view) {
 		super();
 		this.view = view;
 		this.lbl = view.getLbl();

@@ -12,7 +12,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import audios.BGMusic1;
 import constants.BurgerConstant;
 
 public class StartView extends JFrame {

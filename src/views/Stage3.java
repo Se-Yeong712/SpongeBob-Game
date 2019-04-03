@@ -8,9 +8,6 @@ import javax.crypto.spec.SecretKeySpec;
 import javax.swing.*;
 import javax.swing.event.*;
 
-import audios.BGMusic2;
-import audios.BGMusic3;
-import audios.IngredientAudio;
 import constants.BurgerConstant;
 import handlers.BurgerHandler1;
 
@@ -108,7 +105,6 @@ class SponzibapKeyAdapter extends KeyAdapter {
 							
 							score += 10;
 							lblscore.setText(""+score);
-							new IngredientAudio();
 							prev_status_hit = true;
 							chk++;
 						}
@@ -473,7 +469,6 @@ public class Stage3 extends JFrame{
 	        setVisible(true);
 	        p.startGame();
 	        p.requestFocus();
-	        new BGMusic3();
 	}
 	
 	
